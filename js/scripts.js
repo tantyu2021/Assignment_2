@@ -1,0 +1,1 @@
+var coinFlip = 7;
