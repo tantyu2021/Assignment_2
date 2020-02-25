@@ -22,7 +22,7 @@ console.log("staff - client");
         console.log(greaterNum(4, 4));
         console.log(greaterNum(8, 2));
         console.log(greaterNum(3, 13));
-        console.log(greaterNum(3, 'cat'));
+        console.log(greaterNum(3, 'table'));
 
 console.log("large number");
 function largeNum(num1, num2) {

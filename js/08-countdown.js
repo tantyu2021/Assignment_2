@@ -13,9 +13,3 @@ let b;
 for (b = 20; b >= 0; b -= 1) {
 window.document.write(b + "<br>");
 }          
-        
-console.log("count up");
-let i;
-for (i = 1; i <= 10; i += 1) {
-window.document.write(i + "<br>");
-}
