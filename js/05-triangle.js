@@ -1,6 +1,13 @@
 //Looping a Triangle within a console window
-let a;
-for (a = '#'; a.length < 8; a += '#') {
-window.document.write(a);
-    console.log(a)
+let tt;
+for (tt = '#'; tt.length < 8; tt += '#') {
+window.document.write(tt + "<br>");
+    console.log(tt);
 }  
+
+let aX;
+let aY = ['@', '@@', '@@@', '@@@@', '@@@@@', '@@@@@@'];
+for (aX of aY) {
+    console.log(aX);
+window.document.write(aX + "<br>");
+}
