@@ -1,8 +1,8 @@
 //Looping a Triangle within a console window
-let tt;
-for (tt = '#'; tt.length < 8; tt += '#') {
-window.document.write(tt + "<br>");
-    console.log(tt);
+let t;
+for (t = '#'; t.length < 8; t += '#') {
+window.document.write(t + "<br>");
+    console.log(t);
 }  
 
 let aX;
