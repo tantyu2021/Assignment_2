@@ -5,16 +5,17 @@
 //4.	Use a conditional to check the result of the coin flip. If it’s 0, write out “Heads” into the console window. If it’s 1, write out “Tails” into the console window. 
 //5.	Set the condition of the do while loop to end once the coinFlip becomes “Tails”.
 
+
 let coinFlip3;      
 let number3;
 let count3;
 let guess3;
     do {
-            number = Math.floor(Math.random() * 10 + 1);
+            number3 = Math.floor(Math.random() * 10 + 1);
 window.alert("Welcome to the game coinFlip!");
 count3 = 1;      
 while (true) {
-    guess3 = Number(window.prompt("Enter your number"));
+    guess3 = Number(window.prompt("Please, Enter your number"));
     if (number3 < guess3) {  
     console.log("Tails");
     count3 += 1;
@@ -25,11 +26,12 @@ while (true) {
         window.alert("Correct! You guessed it in " + count3 + " tries!");
     }
      }
-} while (number3 < guess3);
-        window.alert()
-        window.document.write("It's Tails! I have reached the end!");
-/*   
+} //while (number3 < guess3);
+  //      window.alert("It's Tails! I have reached the end!")
+  //      window.document.write("It's Tails! I have reached the end!");
 
+
+/*   
 let coinFlip3;
    do {
        coinFlip = 0; coinFlip <= 10; coinFlip += 1;
